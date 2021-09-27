@@ -60,7 +60,7 @@
     background-color: beige;
 }
 
-.stats__item {
+.statsItem {
     padding: var(--standart-indent);
     width: calc(100% / 3);
 
