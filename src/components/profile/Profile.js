@@ -38,7 +38,6 @@ export default function Profile({
 Profile.defaultProps = {
     avatar: 'https://c.dns-shop.ru/thumb/st1/fit/768/768/ab24eeb9490da4496c9877b441ca41f5/277c5e84904207c75f0b14384dff4e5578f7f7e8c529667aa9bee42de87077de.png',
 };
-
 Profile.propTypes = {
     name: PropTypes.string.isRequired,
     tag: PropTypes.string.isRequired,
