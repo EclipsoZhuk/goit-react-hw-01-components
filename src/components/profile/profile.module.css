@@ -3,6 +3,7 @@
 }
 
 .profile {
+    margin-top: 30px;
     background-color: #fff;
     width: calc(var(--standart-indent) * 19);
     text-align: center;
@@ -24,15 +25,15 @@
 
 .thumb {
     width: 200px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     border-radius: 50%;
     overflow: hidden;
     background-color: rgb(204, 195, 195);
 }
 
 .avatar {
-    display: flex;
-    justify-items: center;
+    /* display: flex;
+    justify-items: center; */
     border-radius: 50%;
     display: block;
     width: 200px;
