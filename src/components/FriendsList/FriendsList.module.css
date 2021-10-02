@@ -1,7 +1,7 @@
 .list {
     margin-top: 30px;
     padding: 0;
-    width: calc(var(16px) * 19);
+    width: calc(16px * 19);
 }
 
 .item {
