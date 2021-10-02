@@ -6,7 +6,7 @@ import transactions from './data/transactions.json';
 import Container from './components/Container/Container';
 import Profile from './components/Profile/Profile';
 import Statistics from './components/Statistics/Statistics';
-import FriendList from './components/FriendList/FriendList';
+import FriendsList from './components/FriendsList/FriendsList';
 import TransactionHistory from './components/TransactionHistory/TransactionHistory';
 
 export default function App() {
@@ -22,7 +22,7 @@ export default function App() {
                 />
                 <Statistics title="Upload stats" stats={statisticalData} />
                 <Statistics stats={statisticalData} />
-                <FriendList friends={friends} />
+                <FriendsList friends={friends} />
             </Container>
             <TransactionHistory items={transactions} />
         </>
